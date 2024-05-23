@@ -25,7 +25,7 @@ function install_environment() {
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     
     # 5. Git clone
-    git clone -b v0.2.0 https://github.com/0glabs/0g-storage-node.git
+    git clone https://github.com/0glabs/0g-storage-node.git
     
     # 6. Build
     cd $HOME/0g-storage-node
