@@ -12,6 +12,7 @@ function install_environment() {
     # 1. System updates, installation of required environments
     sudo apt-get update
     sudo apt-get install clang cmake build-essential
+    sudo apt install git
     
     # 2. Install go
     wget https://go.dev/dl/go1.22.0.linux-amd64.tar.gz
