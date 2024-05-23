@@ -32,3 +32,5 @@ function menu() {
         read -p "Press any key to contiune..."
     done
 }
+
+menu
